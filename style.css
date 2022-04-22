@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.row {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.gameArea {
+    margin-top: 40px;
+    position: relative;
+    left: 28%;
+}
+.dot,
+.dot1 {
+    height: 35px;
+    width: 35px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid ;
+    margin-left: 10px;
+}
+
+
+.clr {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 25%;
+    top: -220px;
+}
+
+.clr:hover {
+    border: 1px solid;
+    cursor: pointer;
+}
+.spn {
+    position: relative;
+    flex-direction: column;
+    width: 5%;
+    left: 28%;
+    top: 55px;
+}
+
+.clrPick {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid;
+    margin-left: 10px;
+}
+.selected-item {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid;
+    margin-left: 10px;
+}
+.tick {
+    margin-left: 18px;
+}
+
+.purple {
+    background-color: purple;
+}
+.orange {
+    background-color: orange;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+.pink {
+    background-color: pink;
+}
+.spn:hover {
+    cursor: pointer;
+}
+.dotsm,
+.dotsm1 {
+    height: 16px;
+    width: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid;
+    margin: 4px 4px;
+}
+.small-dot {
+    width: 20%;
+    height: 49px;
+    margin-left: 42px;
+}
+p {
+    width: 40%;
+    border: 1px solid;
+}
+button {
+    margin-left: 5px;
+}
